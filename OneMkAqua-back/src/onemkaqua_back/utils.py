@@ -7,8 +7,9 @@ from typing import List
 
 def createTongyi(api_key: SecretStr):
     model = ChatTongyi(
-        # model="qwen-plus",
-        model="qwen-turbo",
+        model="qwen-plus",
+        # 效果不佳：
+        # model="qwen-turbo",
         api_key=api_key
     )
     return model
