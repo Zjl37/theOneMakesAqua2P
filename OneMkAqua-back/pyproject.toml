@@ -1,0 +1,21 @@
+[project]
+name = "OneMkAqua-back"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Zjl37", email = "2693911885@qq.com"},
+]
+dependencies = ["flask>=3.1.0", "flask-socketio>=5.4.1", "eventlet>=0.38.1", "langchain>=0.3.11", "langchain-community>=0.3.11", "dashscope>=1.20.14"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project.scripts]
+server = "onemkaqua_back.server"
+
+[tool.pdm]
+distribution = true

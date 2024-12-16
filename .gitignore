@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!1mkAqua-front/*
+!OneMkAqua-back/*
+# etc...
+
+# ...even if they are in subdirectories
+!*/
