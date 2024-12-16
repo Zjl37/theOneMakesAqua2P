@@ -5,6 +5,7 @@
 !.gitignore
 !1mkAqua-front/**
 !OneMkAqua-back/**
+!README.md
 # etc...
 
 # ...even if they are in subdirectories
